@@ -23,6 +23,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8982088a347b8ec46ae597258219341a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BaseNormalTexture:
+        m_Texture: {fileID: 2800000, guid: f845b8c49b6fdd44abf7e8cb1d494b62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: 8982088a347b8ec46ae597258219341a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: f845b8c49b6fdd44abf7e8cb1d494b62, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -72,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SnowNormalTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f845b8c49b6fdd44abf7e8cb1d494b62, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SnowRamp:
@@ -96,6 +104,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_cf46c58e607544eebea3cbd2145d1cd0: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -113,13 +122,18 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NoiseSize: 5
+    - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 0.14541972
+    - _SnowBlend: 0.025
+    - _SnowColorNoiseSize: 250
     - _SnowStrength: 0.7
+    - _SnowVariationNoiseSize: 250
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -131,9 +145,11 @@ Material:
     - _Color: {r: 0.77205884, g: 0.77205884, b: 0.77205884, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _SnowColor: {r: 1.498039, g: 1.498039, b: 1.498039, a: 1}
     - _SnowDirection: {r: 0, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1279369917529818331
 MonoBehaviour:

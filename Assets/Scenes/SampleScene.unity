@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.26543808, g: 0.33639687, b: 0.44634432, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 2ef54e43eed05704b83ecaa65e4fcff3, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 477cc4148fad3449482a3bc3178594e2, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1161,6 +1161,7 @@ GameObject:
   - component: {fileID: 1687258582}
   - component: {fileID: 1687258583}
   - component: {fileID: 1687258586}
+  - component: {fileID: 1687258587}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1266,13 +1267,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: -0.022957042, y: 0.97606146, z: -0.17338957, w: -0.12927918}
-  m_LocalPosition: {x: 2.32, y: 1.203, z: 2.378}
+  m_LocalRotation: {x: -0.022479573, y: 0.9811677, z: -0.13647303, w: -0.13483289}
+  m_LocalPosition: {x: 4.08, y: 4.551, z: 10.778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 20.146, y: 195.09, z: 0.001}
+  m_LocalEulerAnglesHint: {x: 15.895, y: 195.588, z: -0.436}
 --- !u!114 &1687258586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,6 +1306,28 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1687258587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687258581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525cf2e1528995e4abbc772dd057fc9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: b2059136251bcf34bbb5664dc7a12d94, type: 2}
+  - {fileID: 2100000, guid: cbe552ac1dea29242a52090848b90493, type: 2}
+  - {fileID: 2100000, guid: d6425f15177796044bd3ad0c26c16ec5, type: 2}
+  - {fileID: 2100000, guid: 0ed70748afb7b414687a300d282e738d, type: 2}
+  - {fileID: 2100000, guid: b748c3632a8c9b74885a4d768cb4d63f, type: 2}
+  - {fileID: 2100000, guid: 16b7a707552540644bd3af43f47bda14, type: 2}
+  - {fileID: 2100000, guid: bb481a8cc0e704f4a8c3bb6ee6cf2159, type: 2}
+  - {fileID: 2100000, guid: 4804e8f6c94552a45a0494210fa35e81, type: 2}
+  - {fileID: 2100000, guid: cba7986325ab1c94db7c519a7a6d9fca, type: 2}
 --- !u!1 &1740073776
 GameObject:
   m_ObjectHideFlags: 0
